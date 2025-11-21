@@ -56,10 +56,23 @@ Contains transactional data and numeric measurements.
 
 ---
 
-           dim_product
-                |
-           dim_customer
-                |
+          +----------------+
+          |  dim_product   |
+          +----------------+
+                    |
+                    |
+                    |
++-----------+    +----------------+    +---------------+
+| dim_date  |----|   fact_sales   |----|  dim_region   |
++-----------+    +----------------+    +---------------+
+                    |
+                    |
+                    |
+          +----------------+
+          |  dim_customer  |
+          +----------------+
+
+
 
 ---
 
