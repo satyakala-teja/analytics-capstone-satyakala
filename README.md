@@ -52,6 +52,28 @@ The project will include the following components:
 - SQL
 - EDA → Cleaning → Feature Engineering → BI Dashboard
 
+
+## 📊 Visualizations Overview
+
+The project includes a set of key analytics visualizations that help understand business performance across time, regions, categories, and products.
+
+### 1️⃣ Monthly Revenue Trend (Line Chart)
+Shows how total revenue varies month-by-month. Helps identify seasonal patterns and sales cycles.
+
+### 2️⃣ Revenue by Region (Bar Chart)
+Displays which regions generate the highest revenue. Useful for geographic analysis and regional strategy planning.
+
+### 3️⃣ Revenue by Category (Bar Chart)
+Highlights which product categories contribute the most to total revenue. Helps prioritize inventory and marketing.
+
+### 4️⃣ Top 5 Products by Revenue (Bar Chart)
+Shows the highest revenue-generating products. Useful for product planning, promotions, and forecasting.
+
+### 5️⃣ Region vs Category Revenue (Pivot Table)
+A multi-dimensional view showing revenue distribution across both region and category. Helps in identifying high-performing combinations.
+
+These visualizations help business teams take decisions based on clear, data-driven insights.
+
 ---
 
 ## Contact
