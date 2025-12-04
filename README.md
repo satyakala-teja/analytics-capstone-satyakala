@@ -9,7 +9,8 @@ End-to-end analytics capstone demonstrating data ingestion, cleaning, transforma
 **Quick start:**  
 - Open `/notebooks/01_data_loading_and_eda.ipynb` to see initial data loading & EDA.  
 - Follow `/notebooks/02_data_cleaning_and_feature_engineering.ipynb` (coming) for cleaning & features.  
-- Final dashboard will be in `/dashboard/`.
+- - Final dashboard will be in `/dashboard/`. See notebooks `/notebooks/01.../
+
 
 **Tools / Stack:** Python (pandas), SQL, GitHub, Google Colab, Tableau / Power BI
 
@@ -23,14 +24,35 @@ The project will include the following components:
 2. **Data Cleaning & Feature Engineering (Coming Next)**  
    - `/notebooks/02_data_cleaning_and_feature_engineering.ipynb`  
    - Handle missing values, transform data types, add derived fields, and prepare dataset for reporting and analytics.
+  
+ 
+3. **Machine Learning Introduction**  
+   - `/notebooks/06_machine_learning_intro.ipynb`  
+   - Covers basic ML concepts, dataset splitting, model training using Random Forest, accuracy evaluation, and predictions.
 
-3. **Star Schema / Data Model (Upcoming)**  
+4. **Large Dataset Classification (Predicting High Value Customers)**  
+   - `/notebooks/07_large_dataset_classification.ipynb`  
+   - This notebook generates a synthetic dataset of 5000+ rows and builds a machine learning model to classify high-value customers.  
+   - Includes:  
+     - Dataset generation  
+     - Feature engineering  
+     - Train-test split  
+     - Random Forest classifier  
+     - Accuracy evaluation  
+     - Classification report  
+     - Confusion matrix  
+     - Feature importance  
+   - 👉 Demonstrates real-world ML skills with business impact.
+
+
+
+5. **Star Schema / Data Model (Upcoming)**  
    - `/models/` folder will contain ER diagrams and star schema documentation.
 
-4. **Dashboard (Power BI / Tableau)**  
+6. **Dashboard (Power BI / Tableau)**  
    - `/dashboard/` folder will contain the final BI report files and screenshots.
 
-5. **Case Study + Summary**  
+7. **Case Study + Summary**  
    - 1-page explanation of approach, insights, and business impact.
 
 ---
